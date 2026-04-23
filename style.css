@@ -53,7 +53,7 @@ font: 26px 'VT323', monospace; text-align:justify; display: none;}
 
 #f17 {position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; display: none; align-items: center; justify-content: center; flex-direction: column;}
 .ring {width: 150px; height: 150px;  background: url(https://i.imgur.com/oEs8TdL.png); background-size: cover;}
-.ichigo {width: 200px; height: 200px; background: url(https://i.imgur.com/hGY3pGX.png); background-size: cover;}
+.ichigo {width: 200px; height: 200px; background: url('./assets/zoe-green.svg'); background-size: cover; background-position:center;}
 
 #f18 {position: absolute; top: 0px; bottom: 0px; right: 0px; left: 0px; background: #111; display: none;}
 #f19, #f20, #f21, #f22 {position: absolute; top: 0px; bottom: 0px; right: 0px; left: 0px; background: #111; display: none; align-items: center; justify-content: center; flex-direction: column;}
@@ -99,9 +99,9 @@ h2 {
   animation-delay: 3.5s; width: 0px; animation-fill-mode: forwards; text-align: center;
 }
 
-.img1 {width: 150px; height: 150px; background: url(https://i.imgur.com/QLrOZMR.png); background-size: cover;}
+.img1 {width: 150px; height: 150px; background: url('./assets/zoe-green.svg'); background-size: cover; background-position:center;}
 
-#ico {position: absolute; bottom: 5px; left: 360px; width: 130px; height: 130px; background: url(https://i.imgur.com/SVZxE8c.png); background-size: 100%;}
+#ico {position: absolute; bottom: 5px; left: 360px; width: 130px; height: 130px; background: url('./assets/zoe-white.svg'); background-size: cover; background-position:center;}
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
